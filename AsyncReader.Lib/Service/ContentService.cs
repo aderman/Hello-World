@@ -28,7 +28,7 @@
             var id = this.contentRepo.Insert(content, true);
             if (id == ObjectId.Empty)
             {
-                ValidationList.Add("There is same a record in the database.");
+                ValidationList.Add("This record is already in the database.");
             }
 
             return id;
