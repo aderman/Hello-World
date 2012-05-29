@@ -49,7 +49,7 @@
   <ItemGroup>
     <Compile Include="BsonExists.cs" />
     <Compile Include="Helper.cs" />
-    <Compile Include="MongoContext.cs" />
+    <Compile Include="MongoService.cs" />
     <Compile Include="MongoRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
